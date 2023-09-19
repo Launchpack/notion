@@ -12,9 +12,9 @@ body {
   color: #e5ebf3;
 }
 
-.slider {
+.slider_wrap {
   position: relative;
-  width: 340px;
+  width: 320px;
   height: 680px;
   overflow: hidden;
   border:10px solid #000;

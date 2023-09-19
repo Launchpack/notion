@@ -8,7 +8,7 @@
 
 body {
   font-family: "Lexend", sans-serif;
-  background-color: #fff;
+  background-color: #eee;
   color: #e5ebf3;
 }
 
@@ -18,9 +18,10 @@ body {
   height: 680px;
   overflow: hidden;
   border:10px solid #000;
-  border-radius: 20px;
+  border-radius: 30px;
   box-sizing:border-box;
   background:#fff;
+  box-shadow:0 10px 30px rgba(0,0,0,0.3)
 }
 
 .slide {

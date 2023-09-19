@@ -1,4 +1,4 @@
-<script>
+
     const slides = document.querySelectorAll(".slide");
     const nextButton = document.getElementById("next");
     const prevButton = document.getElementById("prev");
@@ -45,4 +45,3 @@
       slideInterval = setInterval(nextSlide, intervalTime);
     }
 
-  </script>

@@ -1,5 +1,5 @@
 
-    const slides = document.querySelectorAll(".slide_wrap");
+    const slides = document.querySelectorAll(".slide");
     const nextButton = document.getElementById("next");
     const prevButton = document.getElementById("prev");
     const auto = true;

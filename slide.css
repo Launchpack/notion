@@ -80,6 +80,17 @@ body {
   top: 50%;
   right: 1rem;
 }
+.buttons button#mo_prev {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+}
+
+.buttons button#mo_next {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+}
 
 .buttons button {
   border: 2px solid #e5ebf3;

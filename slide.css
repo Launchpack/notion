@@ -83,13 +83,13 @@ body {
 .buttons button#mo_prev {
   position: absolute;
   top: 50%;
-  left: 23rem;
+  left: -10rem;
 }
 
 .buttons button#mo_next {
   position: absolute;
   top: 50%;
-  right: 23rem;
+  right: -10rem;
 }
 
 .buttons button {

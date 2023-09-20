@@ -30,7 +30,7 @@ body {
   width: 320px;
   height: 680px;
   overflow: hidden;
-  border:10px solid #000;
+  outline:10px solid #000;
   border-radius: 30px;
   box-sizing:border-box;
   background:#fff;
@@ -83,13 +83,13 @@ body {
 .buttons button#mo_prev {
   position: absolute;
   top: 50%;
-  left: 1rem;
+  left: 23rem;
 }
 
 .buttons button#mo_next {
   position: absolute;
   top: 50%;
-  right: 1rem;
+  right: 23rem;
 }
 
 .buttons button {

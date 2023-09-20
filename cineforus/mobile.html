@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Full-Screen Responsive Image Slider</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="../slide.css">
+<style>
+.slide:first-child {
+  background: url("mo_1.png") no-repeat
+    center top/cover;
+}
+
+.slide:nth-child(2) {
+  background: url("mo_2.png") no-repeat
+    center top/cover;
+}
+
+.slide:nth-child(3) {
+  background: url("mo_3.png") no-repeat
+    center top/cover;
+}
+  .slide:nth-child(4) {
+  background: url("mo_4.png") no-repeat
+    center top/cover;
+}
+  .slide:nth-child(5) {
+  background: url("mo_5.png") no-repeat
+    center top/cover;
+}
+  .slide:nth-child(6) {
+  background: url("mo_6.png") no-repeat
+    center top/cover;
+}
+</style>
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+ <div class="slider_wrap_mo">
+  <div class="slider">
+    <div class="slide current"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+  </div>
+  <div class="buttons">
+    <button id="mo_prev"><i class="fas fa-arrow-left"></i></button>
+    <button id="mo_next"><i class="fas fa-arrow-right"></i></button>
+  </div>
+  </div>
+  <!-- partial -->
+  <script src="../slide_mo.js"></script>
+
+</body>
+
+</html>
